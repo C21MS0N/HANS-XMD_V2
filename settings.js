@@ -20,7 +20,7 @@ global.socialm = "GitHub: Mrhanstz"
 
 global.location = "AFRICA, TANZANIA, DODOMA"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || '2349075268689'  //Owner number
 
 global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
 global.botname = 'HANS-XMD' //name of the bot
