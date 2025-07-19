@@ -1,71 +1,66 @@
 //base by HANSTZ
-//YouTube: @HANSTZ-TECH
-//Whatsapp https://wa.me/255614195217
-//GitHub: @Mrhanstz
-//WhatsApp: https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
-//want more free bot scripts? follow my channel : https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31
+//Modified by Crimson X for Kurimuzon♦️ Bot
+
 const fs = require('fs')
 const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "" // fallback to default if not in .env
+global.ownernomer = process.env.OWNER_NUMBER || "2349075268689"
 
-global.ownername = process.env.OWNER_NAME || "HansTech"
+global.ownername = process.env.OWNER_NAME || "Crimson X"
 
-global.ytname = "HANSTZ-TECH"
+global.ytname = "Kurimuzon♦️ Official"
 
-global.socialm = "GitHub: Mrhanstz"
+global.socialm = "GitHub: CrimsonX"
 
-global.location = "AFRICA, TANZANIA, DODOMA"
+global.location = "NIGERIA, EARTH-616"
 
-global.ownernumber = process.env.OWNER_NUMBER || '255614195217'  //Owner number
+global.ownernumber = process.env.OWNER_NUMBER || '2349075268689'  //Owner number
 
-global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
-global.botname = 'HANS-XMD' //name of the bot
+global.ownername = process.env.OWNER_NAME || 'Crimson X' //owner name
+global.botname = 'Kurimuzon♦️' //name of the bot
 
 //sticker details
-global.packname = 'Sticker By'
-global.author = 'HANS-XMD'
+global.packname = 'Kurimuzon Packs'
+global.author = 'Kurimuzon♦️'
 
 //console view/theme
-global.themeemoji = '⚠️'
-global.wm = "HANS BOT"
+global.themeemoji = '🩸'
+global.wm = "KURIMUZON BOT"
 
 //theme link
-global.link = 'https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31'
+global.link = 'https://wa.me/2349075268689'
 
 //custom prefix
-global.prefa = ['','!','.','#','/']
-
+global.prefa = ['','.','!','#','/'] // feel free to adjust
 
 //bot settings
 global.autolikestatus = true //For auto react Status Random
-global.autoRecording = false //auto recording
-global.autoTyping = false //auto typing
-global.autorecordtype = true //auto typing + recording
-global.autoread = false //auto read messages
-global.autobio = true //auto update bio
-global.anti91 = false //auto block +91 
-global.autoswview = true //auto view status/story
-global.autoreact = false // This is For Auto React 
-global.welcome = false // For Welcome massage groups
+global.autoRecording = false
+global.autoTyping = false
+global.autorecordtype = true
+global.autoread = false
+global.autobio = true
+global.anti91 = false
+global.autoswview = true
+global.autoreact = false
+global.welcome = true // enable welcome message for groups
 
-
-global.wagc = "https://whatsapp.com/channel/0029VasiOoR3bbUw5aV4qB31";
+global.wagc = "https://wa.me/2349075268689";
 
 //reply messages
 global.mess = {
-    done: 'Done !',
-    prem: 'This feature can be used by premium user only',
-    admin: 'This feature can be used by admin only',
-    botAdmin: 'This feature can only be used when the bot is a group admin ',
-    owner: 'This feature can be used by owner only',
-    group: 'This feature is only for groups',
-    private: 'This feature is only for private chats',
-    wait: 'In process... ',    
-    error: 'Error!',
+    done: 'Yatta~ It\'s done!',
+    prem: 'Gomen, this feature is for premium users only~',
+    admin: 'Only an admin can use this, senpai.',
+    botAdmin: 'Bot must be admin to do that. 😤',
+    owner: 'Only Kurimuzon-sama can do this!',
+    group: 'This feature is group-only, baka~',
+    private: 'Use this in a private chat, onegai.',
+    wait: 'Processing... matte ne~',
+    error: 'Oops! Error desu!',
 }
 
 global.thumb = fs.readFileSync('./HansTzMedia/thumb.jpg')
@@ -73,7 +68,7 @@ global.thumb = fs.readFileSync('./HansTzMedia/thumb.jpg')
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
     fs.unwatchFile(file)
-    console.log(chalk.redBright(`Update'${__filename}'`))
+    console.log(chalk.redBright(`Update '${__filename}'`))
     delete require.cache[file]
     require(file)
 })
