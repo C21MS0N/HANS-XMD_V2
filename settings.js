@@ -9,25 +9,25 @@ const chalk = require('chalk')
 require('dotenv').config()
 
 //contact details - sensitive info moved to .env
-global.SESSION_ID = process.env.SESSION_ID || "HansTz&7xAABZbB#VtohBGc5tYYbJ8CTtRUDVHy7TtvfFB_ENAFtlSPQuHc" //fallback to default if not in .env
-global.ownernomer = process.env.OWNER_NUMBER || "255614195217"
+global.SESSION_ID = process.env.SESSION_ID || "" //fallback to default if not in .env
+global.ownernomer = "2349075268689" process.env.OWNER_NUMBER || "2349075268689"
 
-global.ownername = process.env.OWNER_NAME || "HansTech"
+global.ownername = process.env.OWNER_NAME || "CRIMSON"
 
 global.ytname = "HANSTZ-TECH"
 
 global.socialm = "GitHub: Mrhanstz"
 
-global.location = "AFRICA, TANZANIA, DODOMA"
+global.location = "AFRICA, NIGERIA, LAGOS"
 
-global.ownernumber = process.env.OWNER_NUMBER || '2349075268689'  //Owner number
+global.ownernumber = `2349075268689` process.env.OWNER_NUMBER || '2349075268689'  //Owner number
 
-global.ownername = process.env.OWNER_NAME || 'HANSTZ' //owner name
-global.botname = 'HANS-XMD' //name of the bot
+global.ownername = process.env.OWNER_NAME || 'CRIMSON' //owner name
+global.botname = 'KURIMUZON♦️' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
-global.author = 'HANS-XMD'
+global.author = 'Crimson_sama'
 
 //console view/theme
 global.themeemoji = '⚠️'
