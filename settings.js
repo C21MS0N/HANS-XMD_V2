@@ -27,7 +27,7 @@ global.packname = 'Kurimuzon Packs'
 global.author = 'Kurimuzon♦️'
 
 //console view/theme
-global.themeemoji = '🩸'
+global.themeemoji = '♦️'
 global.wm = "KURIMUZON BOT"
 
 //theme link
